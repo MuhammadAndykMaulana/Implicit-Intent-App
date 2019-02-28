@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="http://url"
+        android:inputType="textPersonName" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/openbrowser"
+        android:text="@string/open_browser"
+        android:onClick="BukaBrowser"/>
+
+    <EditText
+        android:id="@+id/editTextOpenLoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Open Location"
+        android:inputType="textPersonName" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_location"
+        android:id="@+id/btnLoc"
+        android:onClick="location"/>
+
+    <EditText
+        android:id="@+id/editTextShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/share_text"
+        android:inputType="textPersonName"
+        android:autofillHints="" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnShare"
+        android:text="@string/share_text"
+        android:onClick="sharemsg"/>
+
+</LinearLayout>

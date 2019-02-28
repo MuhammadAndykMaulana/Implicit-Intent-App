@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ImplicitIntentApp</string>
+    <string name="share_message">Share Message</string>
+    <string name="open_browser">Open Browser</string>
+    <string name="open_location">Open Location</string>
+    <string name="share_text">Share Text</string>
+
+</resources>
